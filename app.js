@@ -1,7 +1,3 @@
-let num = 42
-let firstName = 'Valeriia'
-const isProgrammer = true
-
 const resultElement = document.getElementById('result')
 const input1 = document.getElementById('input1')
 const input2 = document.getElementById('input2')
@@ -11,9 +7,6 @@ const minusBtn = document.getElementById('minus')
 const multiplyBtn = document.getElementById('multiply')
 const divideBtn = document.getElementById('divide')
 let action = '+'
-// console.log(resultElement.textContent)
-// resultElement.textContent = 40
-
 
 plusBtn.onclick = function () {
     action = '+'
